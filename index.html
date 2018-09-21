@@ -5,12 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>¡Preparate!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="fw/css/materialize.min.css" />
 </head>
-<body>
-    <script src="main.js"></script>
+<body class="brown lighten-4">
+    <script src="js/main.js"></script>
+    <script src="fw/js/materialize.min.js"></script>
 
-    
+    <header>
+        <div class="row teal accent-1 z-depth-3">
+            <div class="col s12 m6 l8">
+                <h3>Aprende fácil</h3>
+            </div>
+            <div class="col s12 m6 l4 center-align white-text btn-collect">
+                <i class="material-icons small">format_color_text</i>
+                <i class="material-icons small">format_color_fill</i>
+                <i class="material-icons small">rotate_left</i>
+                <i class="material-icons small">rotate_right</i>
+                <i class="material-icons small">text_fields</i>
+            </div>
+        </div>
+    </header>
 
+    <div class="container">
+        <div class="row brown lighten-2">
+            <div class="col s10 offset-s1 brown lighten-3 valign-wrapper">
+                <p id="target-text" class="white-text">Texto de contenido.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row teal accent-1 z-depth-3 white-text">
+            <div class="col s1 btn-collect">
+                <i class="material-icons small">navigate_before</i>
+            </div>
+            <div class="col s1 offset-s10 btn-collect">
+                <i class="material-icons small">navigate_next</i>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

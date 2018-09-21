@@ -1,0 +1,38 @@
+header h3 {
+    font-family: 'Bree Serif', serif;
+    margin: 0 auto;
+}
+header > .row {
+    padding: 2rem !important;
+    vertical-align: middle !important;
+}
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0 !important;
+}
+footer > .row {
+    margin: 0 auto;
+    padding: 1.5rem !important;
+}
+
+.btn-collect i {
+    background-color: #004d40;
+    padding: .45rem .9rem !important;
+    border-radius: 38%;
+    margin: 0 .3rem !important;
+    cursor: pointer;
+}
+.container > .row {
+    padding: 0 1rem !important;
+}
+.container > .row > .col {
+    min-height: 405px !important;
+    margin-bottom: 0.8rem !important;
+}
+
+#target-text {
+    margin: 0 auto !important;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.5rem !important;
+}
